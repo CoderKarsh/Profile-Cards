@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <script
+      src="https://kit.fontawesome.com/6b6441b6bf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Profile Card</h1>
+    </header>
+    <div class="container">
+      <div class="card" id="contact-card">
+        <div class="top">
+          <div class="top-text">
+            <h2 class="side-cards">Contact</h2>
+          </div>
+        </div>
+        <div class="content">
+          <ul>
+            <li>
+              <i class="fa-solid fa-phone fa-flip fa-sm" style="color: #008f1d">
+              </i>
+              &nbsp; <a href="tel: 98102828986">Phone</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope fa-flip fa-sm"> </i>
+              <a href="mailto: shreeut2704@gmail.com">Email</a>
+            </li>
+            <li>
+              <i
+                class="fa-brands fa-linkedin fa-flip fa-sm"
+                style="color: #1c5ece"
+              ></i>
+              &nbsp;
+              <a href="https://www.linkedin.com/in/kumar-utkarsh-79046418b/"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card" id="profile-card">
+        <div class="top">
+          <img src="My pic.jpeg" alt="My pic" />
+          <div class="top-text">
+            <h2 id="name">Kumar Utkarsh</h2>
+            <h3 id="job-desc">Web Developer</h3>
+          </div>
+        </div>
+        <div class="content">
+          <p>
+            Hi. I am a web developer who also loves designing them. It doesn't
+            sit right with me until I have a website with good design. Which is
+            why I am trying to develop my UI designing skills.
+          </p>
+          <p>This is my second project and I'm decently happy with it.</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            animi qui omnis asperiores debitis molestias harum?
+          </p>
+        </div>
+      </div>
+      <div class="card" id="skill-card">
+        <div class="top">
+          <div class="top-text">
+            <h2 class="side-cards">Skills</h2>
+          </div>
+        </div>
+        <div class="content">
+          <ul>
+            <li>
+              <i
+                class="fa-sharp fa-solid fa-code fa-flip fa-sm"
+                style="color: #ff8800"
+              ></i>
+              &nbsp; HTML
+            </li>
+            <li>
+              <i
+                class="fa-sharp fa-solid fa-hashtag fa-flip fa-sm"
+                style="color: #00b3ff"
+              >
+              </i>
+              &nbsp; CSS
+            </li>
+
+            <li>
+              <i
+                class="fa-brands fa-python fa-flip fa-sm"
+                style="color: #3fd100"
+              >
+              </i>
+              &nbsp; Python
+            </li>
+            <li>
+              <i
+                class="fa-sharp fa-solid fa-plus fa-flip fa-sm"
+                style="color: #005eff"
+              ></i>
+              <i
+                class="fa-sharp fa-solid fa-plus fa-flip fa-sm"
+                style="color: #005eff"
+              ></i>
+              &nbsp; C++
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="theme-picker">
+      <fieldset>
+        <legend class="visually-hidden">Pick a colour scheme</legend>
+        <input type="radio" name="theme-color" id="light" checked />
+        <label for="light" class="visually-hidden">Light</label>
+        <input type="radio" name="theme-color" id="dark" />
+        <label for="dark" class="visually-hidden">Dark</label>
+      </fieldset>
+    </div>
+  </body>
+</html>
